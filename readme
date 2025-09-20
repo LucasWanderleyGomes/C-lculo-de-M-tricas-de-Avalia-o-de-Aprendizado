@@ -1,0 +1,48 @@
+# 📊 Projeto: Matriz de Confusão + Métricas com Keras
+
+Este projeto demonstra como treinar uma **rede neural simples** usando **Keras (TensorFlow)** no dataset **MNIST** (dígitos escritos à mão), gerar a **matriz de confusão** e calcular as principais métricas de avaliação de modelos de classificação:
+
+- ✅ Acurácia  
+- ✅ Precisão  
+- ✅ Recall (Sensibilidade)  
+- ✅ Especificidade  
+- ✅ F1-Score  
+
+Tudo explicado **passo a passo** em células de código e texto (estilo notebook educativo).  
+
+---
+
+## 🚀 Tecnologias utilizadas
+- Python 3  
+- TensorFlow / Keras  
+- Numpy, Pandas  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+
+---
+
+## 📂 Estrutura do Projeto
+- `notebook.ipynb` → Notebook com explicações e códigos.  
+- Geração de gráficos: matriz de confusão (bruta e normalizada).  
+- DataFrame com métricas por classe (0 a 9).  
+- Comparação com `classification_report` do sklearn.  
+
+---
+
+## 🛠 Como rodar no Google Colab
+1. Abra o [Google Colab](https://colab.research.google.com/)  
+2. Faça upload do arquivo `notebook.ipynb` ou copie o conteúdo para um novo notebook.  
+3. Vá em **Ambiente de execução → Executar tudo**.  
+4. Aguarde o treinamento e veja os gráficos e métricas.  
+
+---
+
+## 📊 Exemplo de saída
+- Matriz de confusão (visualizada com heatmap).  
+- Métricas calculadas por classe em formato de tabela (`DataFrame`).  
+- Médias macro e weighted das métricas.  
+
+---
+
+## ✨ Autor
+Projeto desenvolvido por **Lucas Wanderley Gomes**.  
